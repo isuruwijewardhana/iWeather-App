@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>iWeather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+
+        <aside class="sidebar">
+            <div class="logo">iWeather</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                    <li><a href="#">Menu 3</a></li>
+                    <li><a href="#">Menu 4</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="dashboard">
+            <section class="current-weather">
+                <div class="weather-info">
+                    <div class="temp">28°C</div>
+                    <div class="desc">Rainy Storm Clouds</div>
+                    <div class="location">Florida, US</div>
+                    <div class="time">24 July, 2022 5:01 AM</div>
+                </div>
+            </section>
+
+            <section class="highlights">
+                <div class="highlight-item wind-status">
+                    <h2>Wind Status</h2>
+                    <p class="data">7.90 km/h</p>
+                </div>
+                <div class="highlight-item uv-index">
+                    <h2>UV Index</h2>
+                    <p class="data">5.50 uv</p>
+                </div>
+                <div class="highlight-item sunrise-sunset">
+                    <h2>Sunrise & Sunset</h2>
+                    <p>Sunrise: 5:50 AM</p>
+                    <p>Sunset: 6:30 PM</p>
+                </div>
+            </section>
+
+            <section class="forecast">
+                <h2>7 Days Forecast</h2>
+                <div class="forecast-grid">
+
+                    <div class="forecast-day">
+                        <p>+29° / +18°</p>
+                        <p>25 July</p>
+                        <p>Tuesday</p>
+                    </div>
+                    <div class="forecast-day">
+                        <p>+21° / +16°</p>
+                        <p>26 July</p>
+                        <p>Wednesday</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="weather-map">
+                <h2>Weather Condition Map</h2>
+                <div class="map-placeholder">[Map]</div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+    <script src="app.js"></script>
 </body>
 </html>
